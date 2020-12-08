@@ -1,0 +1,14 @@
+.modal-dialog {
+    max-width: 800px;
+}
+
+.modal-content {
+    justify-content: center;
+}
+
+.modal-body {
+    padding: 30px 40px 70px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

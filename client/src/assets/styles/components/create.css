@@ -1,0 +1,110 @@
+.page-title{
+    width: 100%;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+form.create{
+    width: 400px;
+}
+
+.my-form-row{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-bottom: 20px;
+}
+
+.my-form-block{
+    display: block;
+    width: 100%;
+}
+
+.my-form-block label{
+    width: 100%;
+
+    font-size: 14px;
+    line-height: 14px;
+
+    color: #808080;
+    margin-bottom: 10px;
+}
+
+.my-input{
+    width: 100%;
+    height: 40px;
+
+    border-radius: 10px;
+    border: 1px solid #cdcbcb;
+
+    background: #fff;
+    outline: none;
+
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+.my-textarea{
+    resize: none;
+
+    width: 100%;
+    height: 120px;
+
+    border-radius: 10px;
+    border: 1px solid #cdcbcb;
+
+    background: #fff;
+    outline: none;
+
+    font-size: 14px;
+    padding: 20px 20px;
+}
+
+
+.my-select{
+    width: 100%;
+    height: 40px;
+
+    border-radius: 10px;
+    border: 1px solid #cdcbcb;
+
+    background: #fff;
+    outline: none;
+
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+.my-form-submit{
+    margin-top: 20px;
+
+    width: 100%;
+    height: 50px;
+
+    background: #3485ff;
+    border: none;
+    outline: none;
+
+    font-size: 14px;
+    color: #fff;
+
+    transition: 0.2s ease;
+    border-radius: 10px;
+
+    font-weight: 500;
+}
+
+.my-form-submit:hover{
+    filter: brightness(125%);
+}
+.my-form-submit:focus{
+    outline: none;
+}
+
+.my-select:focus, .my-input:focus, .my-textarea:focus{
+    box-shadow: 0 0 3px rgba(52, 133, 255, 1);
+}

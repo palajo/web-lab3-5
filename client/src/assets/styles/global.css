@@ -1,0 +1,141 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
+html, body{
+	overflow-x: hidden !important;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+
+	font-weight: 400;
+	color: #333;
+
+	-webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    
+    height: 100vh;
+}
+
+/* ------- h1, h2, h3, h4, h5, p, b */
+    h1, h2, h3, h4, h5, p, a {
+        margin: 0px;
+        color: #091133;
+    }
+    h1{
+        font-size: 36px;
+        line-height: 48px;
+
+		font-weight: 500;
+    }
+    h2{
+        font-size: 30px;
+        line-height: 30px;
+
+		font-weight: 500;
+    }
+    h3{
+        font-size: 24px;
+        line-height: 24px;
+
+		font-weight: 500;
+    }
+    h4{
+        font-size: 18px;
+        line-height: 18px;
+
+		font-weight: 500;
+    }
+    h5{
+        font-size: 16px;
+        line-height: 16px;
+
+		font-weight: 500;
+    }
+    p{
+        font-size: 16px;
+		line-height: 26px;
+		
+		color: #6F7CB2;
+    }
+	.green{
+		color: #47bf49 !important;
+	}
+	.white{
+		color: white;
+	}
+	.black{
+		color: #000 !important;
+	}
+    b{
+        font-weight: 600;
+        color: inherit;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+/* ------------------------ */
+
+
+/* ------- button */
+.button{
+    height: 36px;
+    width: 90px;
+
+    background: none;
+    outline: none;
+
+    border: 1px solid #3485ff;
+    color: #3485ff;
+
+	border-radius: 10px;
+	
+    transition: 0.2s ease;
+}
+
+
+.button:focus{
+    outline: none;
+}
+
+.button:hover{
+    color: #fff;
+    background: #3485ff;
+}
+
+.button.fill.blue{
+    background: #3485ff;
+    color: #fff;
+}
+
+.button.fill.red{
+	background: #f23030;
+	border: 1px solid #f23030;
+    color: #fff;
+}
+
+.button.fill:hover{
+	filter: brightness(125%);
+}
+
+/* ------------------------ */
+
+
+/* settings */
+	.container{
+		max-width: 1440px;
+    }
+    #wrapper{
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        height: calc(100% - 80px);
+    }
+
+/* ------------------------ */

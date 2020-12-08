@@ -1,0 +1,10 @@
+/* globals */
+@import './bootstrap.min.css';
+@import './global.css';
+
+@import './components/header.css';
+@import './components/sidebar.css';
+@import './components/content.css';
+@import './components/create.css';
+@import './components/modal.css';
+
