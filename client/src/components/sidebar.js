@@ -25,8 +25,8 @@ export default class Sidebar extends Component {
     }
 
     render() {
-        const { animals } = this.state;
-        const dailyExpensesTotal = animals.reduce((dailyExpensesTotal, animal) => dailyExpensesTotal + animal.price, 0);
+
+        const dailyExpensesTotal = this.props.dailyExpensesTotal;
 
         return (
             <section class="sidebar">

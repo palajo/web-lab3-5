@@ -24,7 +24,7 @@ export default class Header extends Component {
                                 </NavLink>
                             </li>
                             <li class="nav-item">
-                                <NavLink to="/create" className="nav-link">
+                                <NavLink to="#" className="nav-link" data-toggle="modal" data-target="#editModal">
                                     Create Animal
                                 </NavLink>
                             </li>
