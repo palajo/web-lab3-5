@@ -156,7 +156,11 @@ class MainPage extends Component {
 
         return (
             <>
-                <Header />
+                <Header 
+                    searchClear={this.searchClear} 
+                    updateSearch={this.upadteSearch.bind(this)} 
+                    search={this.state.search} 
+                />
                 <div id="wrapper">
                     <div class="container">
                         <div class="row">
@@ -167,11 +171,6 @@ class MainPage extends Component {
                             />
                             <section class="content">
                                 <div class="products-row">
-                                    <div class="search">
-                                        <input class="search-input" type="text" placeholder="Search" aria-label="Search" value={this.state.search} onChange={this.upadteSearch.bind(this)}></input>
-                                        <button class="search-button blue" type="submit">Search</button>
-                                        <button class="search-button red" onClick={this.searchClear}>Clear</button>
-                                    </div>
                                     {
                                         filteredAnimals.map((data, index) =>
                                             <Animal

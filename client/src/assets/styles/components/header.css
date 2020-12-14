@@ -67,8 +67,9 @@ ul.nav > li.nav-item {
 }
 
 ul.nav > li.nav-item > a.nav-link{
+    display: flex;
     height: 100%;
-    line-height: 60px;
+    align-items: center;
 
     padding: 0 25px;
     margin: 0;
@@ -92,8 +93,6 @@ ul.nav > li.nav-item > a.nav-link:hover{
     display: flex;
     justify-content: flex-end;
     width: 100%;
-
-    margin-bottom: 40px;
     align-self: center;
 }
 
